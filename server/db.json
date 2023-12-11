@@ -1,0 +1,357 @@
+{
+  "users": [
+    {
+      "first_name": "Ильдар",
+      "last_name": "Насыров",
+      "email": "misi228@mail.ru",
+      "password": "zxcv1234A",
+      "phone_number": "Не указано",
+      "user_street": "Не указано",
+      "user_housing": "Не указано",
+      "user_apartament": "Не указано",
+      "user_entrance": "Не указано",
+      "user_floor": "Не указано",
+      "user_balance": 0,
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "breakfast"
+    },
+    {
+      "id": 2,
+      "name": "raw"
+    },
+    {
+      "id": 3,
+      "name": "cold_snack"
+    },
+    {
+      "id": 4,
+      "name": "bruschetta"
+    },
+    {
+      "id": 5,
+      "name": "to_wine"
+    },
+    {
+      "id": 6,
+      "name": "salad"
+    },
+    {
+      "id": 7,
+      "name": "soup"
+    },
+    {
+      "id": 8,
+      "name": "paste"
+    },
+    {
+      "id": 9,
+      "name": "meat"
+    },
+    {
+      "id": 10,
+      "name": "fish"
+    },
+    {
+      "id": 11,
+      "name": "grill"
+    },
+    {
+      "id": 12,
+      "name": "garnish"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "id_category": 1,
+      "name": "Яичница-глазунья из трех яиц",
+      "product_img": "/uploads/three_egg_friedd_egg.png",
+      "description": " Приготовленное из трех свежих яиц, оно представляет собой настоящее произведение искусства на тарелке. Белок тщательно застывает по краям, а желток остается нежным и жидким в центре, создавая удивительный визуальный и вкусовой контраст.",
+      "price": 250,
+      "weight": 400
+    },
+    {
+      "id": 2,
+      "id_category": 1,
+      "name": "Французские булки с ванильным кремом",
+      "product_img": "/uploads/three_egg_omelette_egg.png",
+      "description": "Ароматные французские булочки, начиненные ванильным кремом и посыпанные сахарной пудрой.",
+      "price": 180,
+      "weight": 200
+    },
+    {
+      "id": 3,
+      "id_category": 1,
+      "name": "Греческий йогурт с медом и орехами",
+      "product_img": "/uploads/three_egg_friedd_egg.png",
+      "description": "Натуральный греческий йогурт, политый медом и украшенный хрустящими орехами.",
+      "price": 220,
+      "weight": 250
+    },
+    {
+      "id": 4,
+      "id_category": 1,
+      "name": "Авокадо-тост с лососем",
+      "product_img": "/uploads/three_egg_friedd_egg.png",
+      "description": "Ароматный тост с мякотью авокадо, свежим лососем и лимонным соусом.",
+      "price": 350,
+      "weight": 280
+    },
+    {
+      "id": 5,
+      "id_category": 1,
+      "name": "Фруктовый салат",
+      "product_img": "/uploads/three_egg_friedd_egg.png",
+      "description": "Свежий салат из разнообразных сезонных фруктов, политых легким сиропом.",
+      "price": 280,
+      "weight": 300
+    },
+    {
+      "id": 6,
+      "id_category": 2,
+      "name": "Сырое омаровое мясо",
+      "description": "Сочное и нежное мясо омара, подающееся с лимоном и зеленью.",
+      "price": 1500,
+      "weight": 200,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 7,
+      "id_category": 2,
+      "name": "Свежие устрицы",
+      "description": "Откройте для себя непередаваемый вкус свежих устриц с лимоном и соусом Миньонетт.",
+      "price": 1800,
+      "weight": 12,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 8,
+      "id_category": 2,
+      "name": "Сырое тунцовое филе",
+      "description": "Свежее филе тунца, нарезанное тонкими ломтиками и подается с васаби и соевым соусом.",
+      "price": 2200,
+      "weight": 150,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 9,
+      "id_category": 2,
+      "name": "Сырая тартарная стейк",
+      "description": "Сырой стейк из высококачественной говядины, приготовленный с травами и специями.",
+      "price": 1900,
+      "weight": 180,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 10,
+      "id_category": 2,
+      "name": "Карпаччо из семги",
+      "description": "Тонкие ломтики семги, свежие огурцы и соус на основе оливкового масла.",
+      "price": 1600,
+      "weight": 120,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 11,
+      "id_category": 3,
+      "name": "Салат Цезарь",
+      "description": "Классический салат с курицей, сухариками и соусом Цезарь.",
+      "price": 350,
+      "weight": 250,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 12,
+      "id_category": 3,
+      "name": "Креветки в соусе",
+      "description": "Свежие креветки, обжаренные в чесночном соусе.",
+      "price": 450,
+      "weight": 180,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 13,
+      "id_category": 3,
+      "name": "Оливье",
+      "description": "Популярный русский салат с вареной колбасой и овощами.",
+      "price": 280,
+      "weight": 300,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 14,
+      "id_category": 3,
+      "name": "Маринованные огурцы",
+      "description": "Соленые огурцы в ароматных специях.",
+      "price": 120,
+      "weight": 150,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 15,
+      "id_category": 4,
+      "name": "Брускетта с помидорами",
+      "description": "Хрустящие ломтики багета с томатами, базиликом и оливковым маслом.",
+      "price": 280,
+      "weight": 200,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 16,
+      "id_category": 4,
+      "name": "Брускетта с томатами",
+      "description": "Хрустящие ломтики багета, обжаренные с томатами, чесноком и базиликом.",
+      "price": 240,
+      "weight": 180,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 17,
+      "id_category": 5,
+      "name": "Сырые оливки",
+      "description": "Отборные оливки в масляной заправке.",
+      "price": 180,
+      "weight": 120,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 18,
+      "id_category": 6,
+      "name": "Салат с ростбифом",
+      "description": "Свежий салат с нежным ростбифом, горгонзолой и грецкими орехами.",
+      "price": 380,
+      "weight": 250,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 19,
+      "id_category": 7,
+      "name": "Томатный крем-суп",
+      "description": "Нежный крем-суп из спелых помидоров, с ореховыми хлопьями.",
+      "price": 320,
+      "weight": 300,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 24,
+      "id_category": 8,
+      "name": "Спагетти карбонара",
+      "description": "Итальянские спагетти с беконом, пармезаном и яичным соусом карбонара.",
+      "price": 350,
+      "weight": 250,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 20,
+      "id_category": 9,
+      "name": "Стейк из мраморной говядины",
+      "description": "Поджаренный стейк из мраморной говядины с картофельным пюре и демигласом.",
+      "price": 750,
+      "weight": 300,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 21,
+      "id_category": 10,
+      "name": "Лосось с овощами",
+      "description": "Печеный лосось с медово-горчичным соусом, подается с тушеными овощами.",
+      "price": 680,
+      "weight": 250,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 22,
+      "id_category": 11,
+      "name": "Шашлык из куриного мяса",
+      "description": "Ароматный шашлык из куриного мяса, приправленный специями.",
+      "price": 420,
+      "weight": 200,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    },
+    {
+      "id": 23,
+      "id_category": 12,
+      "name": "Картофельное пюре",
+      "description": "Нежное картофельное пюре с маслом и молоком.",
+      "price": 180,
+      "weight": 200,
+      "product_img": "/uploads/three_egg_friedd_egg.png"
+    }
+  ],
+  "orders": [
+    {
+      "order_date": "19.10.2023",
+      "order_time": "08:01:54",
+      "delivery_addresses": "Улица Речников, дом 6, квартира: , подъезд: , этаж: ",
+      "status": true,
+      "order_price": 500,
+      "delevery_price": 500,
+      "user_name": "Ильдар",
+      "user_number": "+79044701653",
+      "id": 1
+    },
+    {
+      "order_date": "19.10.2023",
+      "order_time": "08:04:20",
+      "delivery_addresses": "Улица Речников, дом 6, квартира: 1, подъезд: 2, этаж: 3",
+      "status": true,
+      "order_price": 400,
+      "delevery_price": 500,
+      "user_id": 1,
+      "id": 2
+    },
+    {
+      "order_date": "07.12.2023",
+      "order_time": "13:08:09",
+      "delivery_addresses": "Улица Речников, дом 6, квартира: , подъезд: , этаж: ",
+      "status": true,
+      "order_price": 520,
+      "delevery_price": 500,
+      "user_name": "Ильдар",
+      "user_number": "+79044701653",
+      "id": 3
+    }
+  ],
+  "orderDetails": [
+    {
+      "order_id": 1,
+      "product_id": 1,
+      "quantity": 2,
+      "product_price": 250,
+      "id": 1
+    },
+    {
+      "order_id": 2,
+      "product_id": 3,
+      "quantity": 1,
+      "product_price": 220,
+      "id": 2
+    },
+    {
+      "order_id": 2,
+      "product_id": 2,
+      "quantity": 1,
+      "product_price": 180,
+      "id": 3
+    },
+    {
+      "order_id": 3,
+      "product_id": 15,
+      "quantity": 1,
+      "product_price": 280,
+      "id": 4
+    },
+    {
+      "order_id": 3,
+      "product_id": 16,
+      "quantity": 1,
+      "product_price": 240,
+      "id": 5
+    }
+  ]
+}

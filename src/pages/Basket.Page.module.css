@@ -1,0 +1,302 @@
+.main_basket {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* background: url(../Image/back.png) no-repeat center top;
+  background-size: cover; */
+}
+.basket_body {
+  padding: 100px 0px;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  z-index: 40;
+}
+.basket_body input {
+  width: 100%;
+}
+.basket_order {
+  background-color: #333333;
+  height: 100%;
+  width: 67.67%;
+  border: 1px solid white;
+  margin-right: 30px;
+}
+.errors {
+  color: red;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.basket_input_active {
+  border: 2px solid red;
+}
+.basket_adress {
+  margin: 20px 20px clamp(15px, 2.6vw, 20px) 20px;
+}
+.basket_title {
+  font-size: clamp(24px, 4.8vw, 36px);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: clamp(20px, 5.3vw, 40px);
+}
+
+.basket_user_date {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.input_user_date {
+  flex: 0 1 50%;
+  margin-bottom: 20px;
+}
+.input_user_date_name {
+  padding-right: 20px;
+}
+.input_user_date_number {
+  padding-left: 20px;
+}
+.basket_title_low {
+  font-size: clamp(18px, 4.8vw, 28px);
+  font-weight: 600;
+  margin: 0px 0px clamp(15px, 4vw, 30px) 0px;
+}
+.input_street {
+  margin: 0px 0px clamp(10px, 2vw, 20px) 0px;
+}
+
+.basket_street_exact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.input_street_exact {
+  flex: 0 1 25%;
+}
+.input_street_exact:not(:last-child) {
+  padding-right: 10px;
+}
+.input_street_exact:not(:first-child) {
+  padding-left: 10px;
+}
+.basket_total {
+  margin: 0px 20px 20px 20px;
+}
+.basket_title_total {
+  font-size: clamp(18px, 4.8vw, 28px);
+  font-weight: 600;
+  margin-bottom: clamp(15px, 4vw, 30px);
+}
+.basket_cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.basket_column {
+  width: 100%;
+}
+.basket_column:not(:last-child) {
+  margin-bottom: 10px;
+}
+.basket_item {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border: 1px solid white;
+  justify-content: space-between;
+}
+.basket_item button {
+  background-color: #333333;
+  color: white;
+}
+.basket_item img {
+  width: 100px;
+  height: 72px;
+}
+.basket_item_icon {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: clamp(145px, 37.89vw, 515px);
+}
+.basket_item_name {
+  padding: 0 10px;
+  font-size: clamp(14px, 2.4vw, 18px);
+}
+.basket_item_total_product {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  padding: 0 10px;
+  vertical-align: bottom;
+  font-size: clamp(20px, 3.3vw, 25px);
+  font-weight: 400;
+}
+.basket_item_total_product span {
+  padding: 0 15px;
+}
+.basket_item_total_product button {
+  color: white;
+  font-size: clamp(18px, 3.3vw, 22px);
+}
+.basket_item_price {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  /* width: 145px; */
+  width: clamp(125px, 10.66vw, 145px);
+}
+.basket_item_price span {
+  padding-right: 10px;
+  font-size: clamp(18px, 2.93vw, 22px);
+  font-weight: 500;
+}
+.basket_item_price button {
+  font-size: clamp(18px, 2.93vw, 22px);
+}
+/* ПРАВАЯ КОЛОНКА */
+.basket_payment {
+  border: 1px solid white;
+  background-color: #333333;
+  width: 400px;
+}
+.basket_payment_body {
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.basket_total_cost_item {
+  font-size: clamp(15px, 2.93vw, 2.4px);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.basket_font_max {
+  font-size: clamp(26px, 5.3vw, 40px);
+  font-weight: 600;
+}
+.basket_total_cost_button {
+  text-align: center;
+}
+.basket_total_cost_button button {
+  padding: clamp(7.5px, 2vw, 15px) clamp(15px, 4vw, 30px);
+  font-weight: 600;
+  font-size: clamp(20px, 4vw, 30px);
+  background-color: #b59571;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .basket_body {
+    flex-wrap: wrap;
+  }
+  .basket_order {
+    width: 100%;
+    margin: 0px 0px 30px 0px;
+  }
+  .basket_payment_body {
+    padding: 20px;
+  }
+  .basket_payment {
+    width: 100%;
+    height: 100%;
+  }
+  .basket_total_cost_item {
+    padding-bottom: clamp(15px, 4vw, 30px);
+  }
+}
+@media (max-width: 750px) {
+  .basket_body {
+    padding-bottom: clamp(25px, 13.3vw, 100px);
+  }
+  .basket_item_icon img {
+    width: 0px;
+  }
+  .input_street_exact {
+    flex: 0 1 50%;
+  }
+  .input_street_exact:first-child {
+    margin-bottom: 10px;
+    padding-right: 10px;
+  }
+  .input_street_exact:nth-child(2) {
+    margin-bottom: 10px;
+    padding-right: 0px;
+  }
+  .input_street_exact:nth-child(3) {
+    padding-left: 0;
+    padding-right: 10px;
+  }
+  .input_user_date {
+    margin-bottom: 15px;
+  }
+  .input_user_date_name {
+    padding-right: 10px;
+  }
+  .input_user_date_number {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .basket_item_total_product {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 5px;
+  }
+  .basket_item_total_product span {
+    padding: 3px 0;
+  }
+  .input_user_date {
+    flex: 0 1 100%;
+  }
+  .input_user_date_name {
+    padding-right: 0px;
+    margin-bottom: 10px;
+  }
+  .input_user_date_number {
+    padding-left: 0px;
+  }
+  .input_street_exact {
+    flex: 0 1 100%;
+    padding: 0px;
+  }
+  .input_street_exact:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .input_street_exact:nth-child(2) {
+    padding-left: 0px;
+  }
+  .input_street_exact:nth-child(3) {
+    padding-right: 0px;
+  }
+  .input_street_exact:nth-child(2) {
+    padding-left: 0px;
+  }
+  .input_street_exact:nth-child(3) {
+    padding-right: 0px;
+  }
+  .input_street_exact:first-child {
+    padding-right: 0px;
+  }
+  .input_street_exact:last-child {
+    padding-left: 0px;
+  }
+  .basket_body input {
+    height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+  }
+}

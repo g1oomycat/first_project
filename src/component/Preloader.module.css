@@ -1,0 +1,12 @@
+.preloader_block {
+  position: relative;
+  z-index: 55;
+  min-height: 100vh;
+  width: 100%;
+  font-size: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-color: rgb(210, 211, 144);
+}

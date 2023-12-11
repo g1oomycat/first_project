@@ -1,0 +1,55 @@
+.main_block_body {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.enter_block {
+  width: 416px;
+  height: 572px;
+  background-color: #333333;
+}
+.main_form {
+  margin: 60px;
+}
+.main_logo {
+  margin-bottom: 45px;
+}
+.main_logo img {
+  width: 120px;
+}
+.main_title {
+  margin-bottom: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 28px;
+}
+.main_reg {
+  display: block;
+  margin-bottom: 45px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  line-height: 2px;
+}
+.main_inp_1 {
+  margin-bottom: 35px;
+}
+.main_inp_2 {
+  margin-bottom: 45px;
+}
+.main_form input {
+  width: 100%;
+}
+
+.main_btn {
+  padding: 10px 20px;
+  background-color: #b59571;
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}

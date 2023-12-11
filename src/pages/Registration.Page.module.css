@@ -1,0 +1,61 @@
+.main_block_body {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.enter_block {
+  background-color: #333333;
+}
+.enter_block input {
+  width: 100%;
+}
+.registretion_body {
+  margin: 60px;
+  width: 300px;
+}
+.main_form {
+  margin: 60px;
+}
+.main_logo {
+  margin-bottom: 35px;
+}
+.main_logo img {
+  width: 120px;
+}
+.main_title {
+  margin-bottom: 35px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 28px;
+}
+.main_reg {
+  display: block;
+  margin-bottom: 35px;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  line-height: 2px;
+}
+.main_inp_1 {
+  margin-bottom: 10px;
+}
+
+.main_btn {
+  padding: 15px 30px;
+  background-color: #b59571;
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.errors {
+  color: red;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}

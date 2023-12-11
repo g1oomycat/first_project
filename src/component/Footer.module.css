@@ -1,0 +1,21 @@
+.footer {
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: #333333;
+}
+
+.footer_cont {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .footer_cont {
+    height: 30px;
+    font-size: 15px;
+  }
+}
